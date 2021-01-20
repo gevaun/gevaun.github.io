@@ -1,0 +1,202 @@
+/*TODO:
+  scale based on screen size
+*/
+/*Text imports*/
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+}
+
+/* some aspects of the font I want to remain the smae */
+.link {
+  text-decoration: none;
+  border-bottom: 1px solid;
+
+}
+
+/* outer-box-container for header */
+.outer-box-container {
+  color: #f3f7f7;
+  overflow: hidden;
+  background: -webkit-linear-gradient(28deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+}
+
+/* contacts link at the top of the page */
+.contact {
+  text-align: center;
+  clear: both;
+  padding: 6px 0 0 0;
+}
+
+#contact-note {
+  font: 1vw 'Spartan', sans-serif;
+  height: 20px;
+  width: 98px;
+  position: absolute;
+  margin-left: 28%;
+}
+
+#contact-medium {
+  display:inline-grid;
+}
+
+#contact-medium a {
+  opacity: .5;
+  border-radius: 50%;
+  transition-duration: 1;
+}
+
+#contact-medium a:hover {
+  opacity: 1;
+  transition-timing-function: ease;
+  transition-duration: 1.4s;
+  transition-property: all;
+}
+
+.outer-box-container svg {
+  display: block;
+}
+
+/* container for the content section of the page */
+.container {
+  font-family: monospace;
+  display: block;
+  margin: auto;
+  width: 66%;
+}
+
+/* Section for my profile and a little about me */
+.profile {
+ padding: 1% 1% 8% 1%;
+ -webkit-box-shadow: 0 4px 6px -8px #777;
+	   -moz-box-shadow: 0 4px 6px -8px #777;
+	        box-shadow: 0 4px 6px -8px #777;
+}
+
+#pic {
+  margin: auto;
+  width: 32%;
+  overflow: hidden;
+  float: left;
+  border-top-left-radius: 50% 30%;
+  border-top-right-radius: 50% 30%;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+}
+
+#pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#about {
+  width: 50%;
+  display: inline-block;
+  padding: 0 6% 0% 6%;
+}
+
+#about h1 {
+  color: #282828;
+  font: 3.2vw 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#about p {
+  color: #404F4D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vw;
+  font-weight: lighter;
+}
+
+#about i {
+  color: #3d405b;
+}
+
+#about a {
+  color: #BCBF56;
+}
+
+#about a:hover {
+  transition: color 0.5s ease .1s;
+  color: hsla(150, 61%, 48%, 1);
+  font-weight: bolder;
+}
+
+/* Qrill section for the sections I want to add contents to */
+.qrill-section {
+  padding: 6% 0 6% 0;
+  clear: both;
+  -webkit-box-shadow: 0 4px 6px -8px #777;
+ 	   -moz-box-shadow: 0 4px 6px -8px #777;
+ 	        box-shadow: 0 4px 6px -8px #777;
+}
+
+.section-title {
+  color: #333333;
+  font: 7.6vw 'Open Sans', sans-serif;
+  font-weight: bolder;
+  opacity: .8;
+  padding: 0 0 2% 0;
+}
+
+.section-content {
+  color: #404F4D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vw;
+  font-weight: lighter;
+}
+
+/* Section for interests */
+#interests {
+
+}
+
+#interests a {
+  color: #515931
+  }
+#interests a:hover {
+  transition: color 0.5s ease .1s;
+  color: hsla(150, 61%, 48%, 1);
+}
+/* Section for skills*/
+#ski-doc {
+  padding: 1% 0 1% 0;
+  width: 25%;
+  text-align: center;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1% 8px -6px rgb(199, 209, 208 .75);
+  -moz-box-shadow: 0 1px 8px -6px rgb(199, 209, 208 .75);
+  box-shadow: 0 1px 8px -6px rgb(199, 209, 208 .75);
+}
+
+#ski-doc p {
+  font-size: 1vw;
+}
+
+
+#ski-doc:hover {
+  transform-origin: left;
+  transition: color 2.5s ease .1s;
+  color: red;
+}
+
+/* Section for footer */
+.footer {
+  text-align: center;
+  overflow: hidden;
+  background: -webkit-linear-gradient(28deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+}
+
+.footer p{
+  overflow: hidden;
+}
