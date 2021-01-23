@@ -49,7 +49,7 @@ body {
 }
 
 #contact-medium a {
-  opacity: .5;
+  opacity: 0.5;
   border-radius: 50%;
   transition-duration: 1;
 }
@@ -112,10 +112,8 @@ body {
 }
 
 #about p {
-  color: #404F4D;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.3vw;
-  font-weight: lighter;
+  color: #404f4d;
+  font: lighter 1.3vw 'Poppins', sans-serif;
 }
 
 #about i {
@@ -123,7 +121,7 @@ body {
 }
 
 #about a {
-  color: #BCBF56;
+  color: #bcbf56;
 }
 
 #about a:hover {
@@ -137,23 +135,20 @@ body {
   padding: 6% 0 6% 0;
   clear: both;
   -webkit-box-shadow: 0 4px 6px -8px #777;
- 	   -moz-box-shadow: 0 4px 6px -8px #777;
- 	        box-shadow: 0 4px 6px -8px #777;
+  -moz-box-shadow: 0 4px 6px -8px #777;
+  box-shadow: 0 4px 6px -8px #777;
 }
 
 .section-title {
   color: #333333;
-  font: 7.6vw 'Open Sans', sans-serif;
-  font-weight: bolder;
-  opacity: .8;
+  font: bold 7.6vw 'Open Sans', sans-serif;
+  opacity: 0.8;
   padding: 0 0 2% 0;
 }
 
 .section-content {
   color: #404F4D;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.3vw;
-  font-weight: lighter;
+  font: lighter 1.3vw 'Poppins', sans-serif;
 }
 
 /* Section for interests */
@@ -163,7 +158,8 @@ body {
 
 #interests a {
   color: #515931
-  }
+}
+
 #interests a:hover {
   transition: color 0.5s ease .1s;
   color: hsla(150, 61%, 48%, 1);
