@@ -15,11 +15,32 @@ body {
   margin: auto;
 }
 
-/* some aspects of the font I want to remain the smae */
+/*Scroll bar settings*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+  transition-duration: 1.4s;
+}
+
+/* links should have the same style */
 .link {
   text-decoration: none;
   border-bottom: 1px solid;
-
 }
 
 /* outer-box-container for header */
@@ -49,7 +70,7 @@ body {
 }
 
 #contact-medium a {
-  opacity: 0.5;
+  opacity: .5;
   border-radius: 50%;
   transition-duration: 1;
 }
@@ -67,7 +88,6 @@ body {
 
 /* container for the content section of the page */
 .container {
-  font-family: monospace;
   display: block;
   margin: auto;
   width: 66%;
@@ -75,10 +95,10 @@ body {
 
 /* Section for my profile and a little about me */
 .profile {
- padding: 1% 1% 8% 1%;
- -webkit-box-shadow: 0 4px 6px -8px #777;
-	   -moz-box-shadow: 0 4px 6px -8px #777;
-	        box-shadow: 0 4px 6px -8px #777;
+  padding: 1% 1% 8% 1%;
+  -webkit-box-shadow: 0 4px 6px -8px #777;
+  -moz-box-shadow: 0 4px 6px -8px #777;
+  box-shadow: 0 4px 6px -8px #777;
 }
 
 #pic {
@@ -107,12 +127,11 @@ body {
 
 #about h1 {
   color: #282828;
-  font: 3.2vw 'Open Sans', sans-serif;
-  font-weight: 400;
+  font: 400 3.2vw 'Open Sans', sans-serif;
 }
 
 #about p {
-  color: #404f4d;
+  color: #404F4D;
   font: lighter 1.3vw 'Poppins', sans-serif;
 }
 
@@ -121,7 +140,7 @@ body {
 }
 
 #about a {
-  color: #bcbf56;
+  color: #BCBF56;
 }
 
 #about a:hover {
@@ -141,8 +160,8 @@ body {
 
 .section-title {
   color: #333333;
-  font: bold 7.6vw 'Open Sans', sans-serif;
-  opacity: 0.8;
+  font: bolder 7.6vw 'Open Sans', sans-serif;
+  opacity: .8;
   padding: 0 0 2% 0;
 }
 
@@ -164,6 +183,7 @@ body {
   transition: color 0.5s ease .1s;
   color: hsla(150, 61%, 48%, 1);
 }
+
 /* Section for skills*/
 #ski-doc {
   padding: 1% 0 1% 0;
