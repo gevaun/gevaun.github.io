@@ -187,8 +187,9 @@ body {
 
 .section-title {
   color: #333333;
-  font: bolder 7.6vw 'Open Sans', sans-serif;
+  font: italic bolder 8.6vw 'Open Sans', sans-serif;
   opacity: .8;
+  text-shadow: 0 0 10px #777;
   padding: 0 0 2% 0;
 }
 
