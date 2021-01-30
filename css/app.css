@@ -84,14 +84,6 @@ body {
   padding: 6px 0 0 0;
 }
 
-#contact-note {
-  font: 1vw 'Spartan', sans-serif;
-  height: 20px;
-  width: 98px;
-  position: absolute;
-  margin-left: 28%;
-}
-
 #contact-medium {
   display:inline-grid;
 }
@@ -196,6 +188,12 @@ body {
 .section-content {
   color: #404F4D;
   font: lighter 1.3vw 'Poppins', sans-serif;
+}
+
+/* section for connect with me */
+#sec-contact {
+  font: 2vw 'Spartan', sans-serif;
+  text-shadow: 0 0 0 #777;
 }
 
 /* Section for interests */
