@@ -16,7 +16,7 @@ body {
 }
 
 /*Scroll bar settings*/
-/* width */
+/* Width */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -64,14 +64,12 @@ body {
 #contact-medium a {
   opacity: .5;
   border-radius: 50%;
-  transition-duration: 1;
+  transition: 1s;
 }
 
 #contact-medium a:hover {
   opacity: 1;
-  transition-timing-function: ease;
-  transition-duration: 1.4s;
-  transition-property: all;
+  transition: all 1.4s ease-in-out;
 }
 
 .outer-box-container svg {
@@ -96,17 +94,14 @@ body {
 
 .section-title {
   color: #333333;
-  font: 7.6vw 'Open Sans', sans-serif;
-  font-weight: bolder;
+  font: bolder 7.6vw 'Open Sans', sans-serif;
   opacity: .8;
   padding: 0 0 2% 0;
 }
 
 .section-content {
   color: #404F4D;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.3vw;
-  font-weight: lighter;
+  font: lighter 1.3vw 'Poppins', sans-serif;
 }
 
 /* Section for my profile and a little about me */
@@ -159,10 +154,8 @@ body {
 #about a:hover {
   transition: color 0.5s ease .1s;
   color: hsla(150, 61%, 48%, 1);
-  font-weight: bolder;
+  font: bolder;
 }
-
-
 
 /* section for connect with me */
 #sec-contact {
@@ -185,25 +178,6 @@ body {
 }
 
 /* Section for skills*/
-#ski-doc {
-  padding: 1% 0 1% 0;
-  width: 25%;
-  text-align: center;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 1% 8px -6px rgb(199, 209, 208 .75);
-  -moz-box-shadow: 0 1px 8px -6px rgb(199, 209, 208 .75);
-  box-shadow: 0 1px 8px -6px rgb(199, 209, 208 .75);
-}
-
-#ski-doc p {
-  font-size: 1vw;
-}
-
-#ski-doc:hover {
-  transform-origin: left;
-  transition: color 2.5s ease .1s;
-  color: red;
-}
 
 /* Section for footer */
 .footer {
