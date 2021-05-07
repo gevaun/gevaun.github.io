@@ -86,16 +86,19 @@ body {
 
 /* Qrill section for the sections I want to add contents to */
 .qrill-section {
-  padding: 6% 0 6% 0;
-  clear: both;
+  display: grid;
+  grid-template-row: auto auto auto auto;
   -webkit-box-shadow: 0 4px 6px -8px #777;
   -moz-box-shadow: 0 4px 6px -8px #777;
   box-shadow: 0 4px 6px -8px #777;
+  padding: 4% 0 4% 0;
 }
 
 .section-title {
+  grid-row-start: 1;
+  grid-row-end: 1;
   color: #333333;
-  font: bolder 7.6vw 'Open Sans', sans-serif;
+  font: italic bolder 7.6vw 'Open Sans', sans-serif;
   opacity: .8;
   padding: 0 0 2% 0;
 }
@@ -105,33 +108,32 @@ body {
   font: lighter 1.3vw 'Poppins', sans-serif;
 }
 
-/* Section for my profile and a little about me */
-.profile {
-  padding: 1% 1% 8% 1%;
+#profile {
+  display: grid;
+  grid-template-colums: auto auto auto auto;
 }
 
-#pic {
-  margin: auto;
-  width: 32%;
-  overflow: hidden;
-  float: left;
+#picture {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#picture img {
+  width: 100%;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
 }
 
-#pic img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 #about {
-  width: 50%;
-  display: inline-block;
-  padding: 0 6% 0% 6%;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 4%;
 }
 
 #about h1 {
@@ -165,10 +167,6 @@ body {
 }
 
 /* Section for interests */
-#interests {
-
-}
-
 #interests a {
   color: #515931
 }
