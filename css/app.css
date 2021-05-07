@@ -1,7 +1,8 @@
 /*TODO:
   scale based on screen size
 */
-/*Text imports*/
+
+/*Import fronts*/
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -114,10 +115,10 @@ body {
   width: 32%;
   overflow: hidden;
   float: left;
-  border-top-left-radius: 50% 30%;
-  border-top-right-radius: 50% 30%;
-  border-bottom-left-radius: 50% 30%;
-  border-bottom-right-radius: 50% 30%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
 }
 
 #pic img {
