@@ -51,32 +51,6 @@ body {
   background: -webkit-linear-gradient(28deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
 }
 
-/* contacts link at the top of the page */
-.contact {
-  text-align: center;
-  clear: both;
-  padding: 6px 0 0 0;
-}
-
-#contact-medium {
-  display:inline-grid;
-}
-
-#contact-medium a {
-  opacity: .5;
-  border-radius: 50%;
-  transition: 1s;
-}
-
-#contact-medium a:hover {
-  opacity: 1;
-  transition: all 1.4s ease-in-out;
-}
-
-.outer-box-container svg {
-  display: block;
-}
-
 /* container for the content section of the page */
 .container {
   display: block;
@@ -108,6 +82,7 @@ body {
   font: lighter 1.3vw 'Poppins', sans-serif;
 }
 
+/*Section for profile*/
 #profile {
   display: grid;
   grid-template-colums: auto auto auto auto;
@@ -138,7 +113,7 @@ body {
 
 #about h1 {
   color: #282828;
-  font: 400 3.2vw 'Open Sans', sans-serif;
+  font: bolder 3.2vw 'Open Sans', sans-serif;
 }
 
 #about p {
@@ -160,7 +135,7 @@ body {
   font: bolder;
 }
 
-/* section for connect with me */
+/* Section for connect with me */
 #sec-contact {
   font: 2vw 'Spartan', sans-serif;
   text-shadow: 0 0 0 #777;
@@ -174,6 +149,32 @@ body {
 #interests a:hover {
   transition: color 0.5s ease .1s;
   color: hsla(150, 61%, 48%, 1);
+}
+
+/* contacts link at the top of the page */
+.contact {
+  text-align: center;
+  clear: both;
+  padding: 6px 0 0 0;
+}
+
+#contact-medium {
+  display:inline-grid;
+}
+
+#contact-medium a {
+  opacity: .5;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+#contact-medium a:hover {
+  opacity: 1;
+  transition: all 1.4s ease-in-out;
+}
+
+.outer-box-container svg {
+  display: block;
 }
 
 /* Section for skills*/
