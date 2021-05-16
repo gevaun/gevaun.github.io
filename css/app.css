@@ -68,23 +68,21 @@ section {
 }
 
 .full-section {
-  -webkit-box-shadow: 0 4px 6px -8px #777;
-  -moz-box-shadow: 0 4px 6px -8px #777;
-  box-shadow: 0 4px 6px -8px #777;
+  
 }
 
 .section-title {
   grid-row-start: 1;
   grid-row-end: 1;
   color: #333333;
-  font: italic bolder 7.6vw 'Open Sans', sans-serif;
+  font: italic bolder 7.6vw 'Poppins', sans-serif;
   opacity: .8;
   padding: 0 0 2% 0;
 }
 
 .section-content {
   color: #404F4D;
-  font: lighter 1.3vw 'Poppins', sans-serif;
+  font: 1.3vw 'Open Sans', sans-serif;
 }
 
 section.about-me {
@@ -121,13 +119,16 @@ section.about-me {
 }
 
 #greeting {
-  font: bold 3vw;
+  font-weight: bold;
+  font-size: 1.8vw;
   color: #A7BBC7;
 }
 
 #about h1 {
+  margin: 4px;
+  padding: 0px;
   color: #30475E;
-  font: 800 2.8vw 'Poppins';
+  font: bolder 2.6vw 'Poppins', sans-serif;;
 }
 
 
