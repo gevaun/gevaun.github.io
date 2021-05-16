@@ -44,13 +44,6 @@ body {
   border-bottom: 1px solid;
 }
 
-/* outer-box-container for header */
-.outer-box-container {
-  color: #f3f7f7;
-  overflow: hidden;
-  background: -webkit-linear-gradient(28deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
-}
-
 /* container for the content section of the page */
 .scroll-container {
 }
@@ -68,7 +61,7 @@ section {
 }
 
 .full-section {
-  
+
 }
 
 .section-title {
