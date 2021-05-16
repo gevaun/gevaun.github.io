@@ -58,6 +58,10 @@ body {
   width: 66%;
 }
 
+section {
+  height: 100vh
+}
+
 /* Qrill section for the sections I want to add contents to */
 .full-section {
   display: grid;
@@ -80,6 +84,10 @@ body {
 .section-content {
   color: #404F4D;
   font: lighter 1.3vw 'Poppins', sans-serif;
+}
+
+section.about-me {
+  height: 90vh;
 }
 
 /*Section for profile*/
@@ -136,22 +144,15 @@ body {
 }
 
 /* Section for connect with me */
+section.contact-me {
+  height: 40vh;
+}
+
 #sec-contact {
   font: 2vw 'Spartan', sans-serif;
   text-shadow: 0 0 0 #777;
 }
 
-/* Section for interests */
-#interests a {
-  color: #515931
-}
-
-#interests a:hover {
-  transition: color 0.5s ease .1s;
-  color: hsla(150, 61%, 48%, 1);
-}
-
-/* contacts link at the top of the page */
 .contact {
   text-align: center;
   clear: both;
@@ -173,11 +174,31 @@ body {
   transition: all 1.4s ease-in-out;
 }
 
+/* Section for interests */
+section.my-interests {
+
+}
+
+#interests a {
+  color: #515931
+}
+
+#interests a:hover {
+  transition: color 0.5s ease .1s;
+  color: hsla(150, 61%, 48%, 1);
+}
+
+/* contacts link at the top of the page */
+
+
 .outer-box-container svg {
   display: block;
 }
 
 /* Section for skills*/
+section.skills {
+
+}
 
 /* Section for footer */
 .footer {
