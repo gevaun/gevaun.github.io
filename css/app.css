@@ -53,23 +53,24 @@ body {
 
 /* container for the content section of the page */
 .scroll-container {
-  display: block;
-  margin: auto;
-  width: 66%;
 }
 
+/*Cite sections*/
 section {
   height: 100vh
 }
 
-/* Qrill section for the sections I want to add contents to */
+.container {
+  color: #222831;
+  font: lighter 1.4vw 'Open Sans', sans-serif;
+  margin: auto;
+  width: 70%;
+}
+
 .full-section {
-  display: grid;
-  grid-template-row: auto auto auto auto;
   -webkit-box-shadow: 0 4px 6px -8px #777;
   -moz-box-shadow: 0 4px 6px -8px #777;
   box-shadow: 0 4px 6px -8px #777;
-  padding: 4% 0 4% 0;
 }
 
 .section-title {
@@ -176,7 +177,6 @@ section.contact-me {
 
 /* Section for interests */
 section.my-interests {
-
 }
 
 #interests a {
