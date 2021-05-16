@@ -52,14 +52,14 @@ body {
 }
 
 /* container for the content section of the page */
-.container {
+.scroll-container {
   display: block;
   margin: auto;
   width: 66%;
 }
 
 /* Qrill section for the sections I want to add contents to */
-.qrill-section {
+.full-section {
   display: grid;
   grid-template-row: auto auto auto auto;
   -webkit-box-shadow: 0 4px 6px -8px #777;
