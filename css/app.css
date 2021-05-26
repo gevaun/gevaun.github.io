@@ -65,25 +65,26 @@ section {
 
 }
 
+/* Section attributes */
 .section-title {
   grid-row-start: 1;
   grid-row-end: 1;
-  color: #333333;
-  font: italic bolder 7.6vw 'Poppins', sans-serif;
+  color: #30475E;
+  font: italic 3.2vw 'Poppins', sans-serif;
   opacity: .8;
   padding: 0 0 2% 0;
 }
 
 .section-content {
   color: #404F4D;
-  font: 1.3vw 'Open Sans', sans-serif;
+  font: 1.5vw 'Open Sans', sans-serif;
 }
 
+/*Section for profile*/
 section.about-me {
   height: 75vh;
 }
 
-/*Section for profile*/
 #profile {
   display: grid;
   grid-template-colums: auto auto auto auto;
@@ -126,9 +127,8 @@ section.about-me {
   margin: 4px;
   padding: 0px;
   color: #30475E;
-  font: bolder 2.6vw 'Poppins', sans-serif;;
+  font: bolder 2.6vw 'Poppins', sans-serif;
 }
-
 
 #about i {
   color: #3d405b;
@@ -177,6 +177,7 @@ section.contact-me {
 
 /* Section for interests */
 section.my-interests {
+  background: #e4efe7;
 }
 
 #interests a {
