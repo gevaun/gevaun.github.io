@@ -87,7 +87,7 @@ section.about-me {
 
 #profile {
   display: grid;
-  grid-template-colums: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 #picture {
@@ -125,7 +125,7 @@ section.about-me {
 
 #about h1 {
   margin: 4px;
-  padding: 0px;
+  padding-left: 10%;
   color: #30475E;
   font: bolder 2.6vw 'Poppins', sans-serif;
 }
@@ -203,9 +203,10 @@ section.skills {
 
 /* Section for footer */
 .footer {
+  height: 20vh;
   text-align: center;
   overflow: hidden;
-  background: -webkit-linear-gradient(28deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+  background: #3C887E;
 }
 
 .footer p{
