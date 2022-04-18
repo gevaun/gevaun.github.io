@@ -45,8 +45,10 @@ body {
 }
 
 /* container for the content section of the page */
+/*
 .scroll-container {
 }
+*/
 
 /*Cite sections*/
 section {
@@ -61,9 +63,10 @@ section {
   width: 70%;
 }
 
+/*
 .full-section {
-
 }
+*/
 
 /* Section attributes */
 .section-title {
@@ -197,9 +200,10 @@ section.my-interests {
 }
 
 /* Section for skills*/
+/*
 section.skills {
-
 }
+*/
 
 /* Section for footer */
 .footer {
