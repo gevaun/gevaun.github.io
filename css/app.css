@@ -53,14 +53,10 @@ body {
 /*Cite sections*/
 section {
   display: flex;
-  height: 100vh
 }
 
 .container {
   color: #222831;
-  font: lighter 1.4vw 'Open Sans', sans-serif;
-  margin: auto;
-  width: 70%;
 }
 
 /*
@@ -72,20 +68,14 @@ section {
 .section-title {
   grid-row-start: 1;
   grid-row-end: 1;
-  color: #30475E;
+  color: #123a62;
   font: italic 3.2vw 'Poppins', sans-serif;
   opacity: .8;
   padding: 0 0 2% 0;
 }
 
 .section-content {
-  color: #404F4D;
-  font: 1.5vw 'Open Sans', sans-serif;
-}
-
-/*Section for profile*/
-section.about-me {
-  height: 75vh;
+  color: #272e2d;
 }
 
 #profile {
@@ -122,7 +112,6 @@ section.about-me {
 
 #greeting {
   font-weight: bold;
-  font-size: 1.8vw;
   color: #A7BBC7;
 }
 
@@ -130,7 +119,6 @@ section.about-me {
   margin: 4px;
   padding-left: 10%;
   color: #30475E;
-  font: bolder 2.6vw 'Poppins', sans-serif;
 }
 
 #about i {
@@ -145,11 +133,6 @@ section.about-me {
   transition: color 0.5s ease .1s;
   color: hsla(150, 61%, 48%, 1);
   font: bolder;
-}
-
-/* Section for connect with me */
-section.contact-me {
-  height: 40vh;
 }
 
 #sec-contact {
@@ -207,12 +190,102 @@ section.skills {
 
 /* Section for footer */
 .footer {
-  height: 20vh;
   text-align: center;
   overflow: hidden;
-  background: #3C887E;
+  background: #68DAA1;
 }
 
 .footer p{
   overflow: hidden;
 }
+
+@media (max-width: 2200px) {
+  .container {
+    margin: auto;
+    width: 70%;
+    font: lighter 1.4vw 'Open Sans', sans-serif;
+  }
+
+  .section-content {
+    font: 1.5vw 'Open Sans', sans-serif;
+  }
+  
+  section {
+    height: 100vh;
+  }
+  
+  /* Section for profile */
+  section.about-me {
+    height: 75vh;
+  }
+
+  #greeting {
+    font-size: 1.8vw;
+  }
+
+  #about h1 {
+    font: bolder 2.6vw 'Poppins', sans-serif;
+  }
+
+  /* Section for connect with me */
+  section.contact-me {
+    height: 40vh;
+  }
+
+  /* Section for my interests */
+  section.my-interests {
+    height: 90vh;
+  }
+
+  /* Section for footer */
+  .footer {
+    height: 20vh;
+  }
+}
+
+/* Screen Size resize*/
+@media (max-width: 1600px) {
+  .container {
+    margin: auto;
+    width: 80%;
+    font: lighter 2vw 'Open Sans', sans-serif;
+  }
+
+  .section-content {
+    font: 2vw 'Open Sans', sans-serif;
+  }
+
+  /* Section for profile */
+  section.about-me {
+    height:60vh;
+  }
+
+  #greeting {
+    font-size: 2.5vw;
+  }
+
+  #about h1 {
+    font: bolder 3.2vw 'Poppins', sans-serif;
+  }
+  
+  /* Section for connect with me */
+  section.contact-me {
+    height: 20vh;
+  }
+
+  /* Section for my interests */
+  section.my-interests {
+    height: 80vh;
+  }
+
+  /* Section for skills */
+  section.skills{
+    height:80vh;
+  }
+
+  /* Section for footer */
+  .footer{
+    height:8vh;
+  }
+}
+
