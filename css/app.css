@@ -289,3 +289,47 @@ section.skills {
   }
 }
 
+@media (max-width: 1000px) {
+  .container {
+    margin: auto;
+    width: 90%;
+    font: lighter 2vw 'Open Sans', sans-serif;
+  }
+
+  .section-content {
+    font: 2.6vw 'Open Sans', sans-serif;
+  }
+
+  /* Section for profile */
+  section.about-me {
+    height:50vh;
+  }
+
+  #greeting {
+    font-size: 2.5vw;
+  }
+
+  #about h1 {
+    font: bolder 3.2vw 'Poppins', sans-serif;
+  }
+  
+  /* Section for connect with me */
+  section.contact-me {
+    height: 20vh;
+  }
+
+  /* Section for my interests */
+  section.my-interests {
+    height: 60vh;
+  }
+
+  /* Section for skills */
+  section.skills{
+    height:60vh;
+  }
+
+  /* Section for footer */
+  .footer{
+    height:8vh;
+  }
+}
